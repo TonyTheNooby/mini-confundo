@@ -1,3 +1,5 @@
+*** NHỚ XEM FILE confundo_defense_framework.py ***
+
 
 # [LAYER 1] RETRIEVAL DEFENSE
 # ===========================================================================
