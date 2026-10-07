@@ -80,7 +80,10 @@ Mình khuyên kiến trúc cuối cùng nên là Python package làm lõi + Stre
 Kiến trúc mình khuyên cho đồ án cuối cùng là:
 
 
+
+
 <img width="391" height="438" alt="image" src="https://github.com/user-attachments/assets/1c7ea107-1b9a-4f71-9942-e9e381aca938" />
+
 
 
 
