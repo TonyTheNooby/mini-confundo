@@ -1,26 +1,14 @@
 *** NHỚ XEM FILE confundo_defense_framework.py ***
 
-# ===========================================================================
 # [LAYER 1] RETRIEVAL DEFENSE
-# ===========================================================================
 
-# ===========================================================================
 # [LAYER 2] GENERATION DEFENSE
-# ===========================================================================
 
-# ===========================================================================
 # [LAYER 3] STEALTHINESS DEFENSE
-# ===========================================================================
 
-# ===========================================================================
 # [LAYER 4] PIPELINE / FRAGMENTATION DEFENSE
-# ===========================================================================
 
-# ===========================================================================
 # MASTER FRAMEWORK — COMBINES ALL FOUR LAYERS
-# =========================================================================
-
-
 
 Bốn lớp đang hoạt động theo logic:
 
@@ -91,28 +79,8 @@ Mình khuyên kiến trúc cuối cùng nên là Python package làm lõi + Stre
 - Browser extension: mình không khuyên. Extension thường không nhìn được retrieved chunks và generation pipeline ở backend, trong khi defense của bạn cần can thiệp đúng vào context trước LLM.
 Kiến trúc mình khuyên cho đồ án cuối cùng là:
 
-ragshield/
-│
-├── ragshield/                  ← Python package chính
-│   ├── retrieval.py
-│   ├── generation.py
-│   ├── stealth.py
-│   ├── pipeline.py
-│   ├── scoring.py
-│   └── guard.py
-│
-├── app.py                      ← Streamlit demo
-├── cli.py                      ← command line
-│
-├── experiments/
-│   ├── eval_clean.py
-│   ├── eval_confundo.py
-│   └── ablation.py
-│
-├── tests/
-├── README.md
-└── pyproject.toml
 
+<img width="391" height="438" alt="image" src="https://github.com/user-attachments/assets/1c7ea107-1b9a-4f71-9942-e9e381aca938" />
 
 
 
