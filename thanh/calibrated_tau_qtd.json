@@ -1,0 +1,9 @@
+{
+  "metric": "Query-Text Dependence (QTD)",
+  "dataset": "vapit/harrypotterQA",
+  "num_queries_Q_cal": 200,
+  "num_chunks_n": 10000,
+  "alpha": 0.05,
+  "k_rank": 500,
+  "tau_threshold": 0.472442
+}
